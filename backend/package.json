@@ -1,0 +1,40 @@
+{
+  "name": "seo-audit-backend",
+  "version": "1.0.0",
+  "description": "Backend API for SEO Audit Tool",
+  "main": "server-mongodb.js",
+  "scripts": {
+    "start": "node server-mongodb.js",
+    "dev": "nodemon server-mongodb.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "cors": "^2.8.5",
+    "helmet": "^6.0.1",
+    "dotenv": "^16.0.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "express-rate-limit": "^6.7.0",
+    "express-validator": "^6.15.0",
+    "lighthouse": "^9.6.8",
+    "puppeteer": "^19.11.1",
+    "cheerio": "^1.0.0-rc.10",
+    "axios": "^0.27.2",
+    "compression": "^1.7.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1",
+    "cron": "^2.3.0",
+    "socket.io": "^4.6.1",
+    "redis": "^4.6.0",
+    "winston": "^3.8.2",
+    "joi": "^17.7.0",
+    "sharp": "^0.32.0",
+    "pdfkit": "^0.13.0",
+    "csv-writer": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
